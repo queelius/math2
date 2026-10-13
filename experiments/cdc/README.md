@@ -111,6 +111,11 @@ The Python verifier is an executable check, not Lean kernel verification.
 
 ## Next lemma to pursue
 
+The [fixed-flow follow-up](AFFINE_LIFTS.md) exhausts every affine lift of the
+specified alternative Petersen flow. Besides the recorded `K6` witness it
+finds a `K5` witness giving five individual cycles, without changing the flow.
+It includes a standalone checker, exact output, and failure controls.
+
 The K6 witness rules out an algorithm that only merges one supplied palette.
 A useful next investigation is whether changing the flow or affine lift can
 always find a five-colorable palette in a specified graph class, or whether
