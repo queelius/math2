@@ -116,6 +116,14 @@ specified alternative Petersen flow. Besides the recorded `K6` witness it
 finds a `K5` witness giving five individual cycles, without changing the flow.
 It includes a standalone checker, exact output, and failure controls.
 
+The [complete Petersen follow-up](ALL_FLOWS.md) now covers all 28,560 nonzero
+F2^3 flows on that labelled graph, partitioned into 170 linear-relabelling
+orbits. Every flow has a literal five-label affine lift. Its exact certificate
+records all representative lifts; independent inclusion-exclusion checks flow
+coverage, and explicit clique/coloring witnesses certify each palette.
+Replay with `python -m experiments.cdc.all_flows`. This remains a finite
+Petersen result, not a general five-cover theorem.
+
 The K6 witness rules out an algorithm that only merges one supplied palette.
 A useful next investigation is whether changing the flow or affine lift can
 always find a five-colorable palette in a specified graph class, or whether
