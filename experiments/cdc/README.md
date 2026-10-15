@@ -132,3 +132,5 @@ and a successful five-cover when testing a proposed transformation.
 
 No universal five-cover statement, new complexity bound, or change to math2's
 cross-family Lean catalogue follows from these finite experiments.
+
+The [Heawood fixed-flow obstruction](heawood/README.md) gives a boundary to the Petersen result: one explicit nonzero flow has exactly two root-fixed lifts, both with K7 palettes, while a different flow on the same graph yields a checked three-label Eulerian double cover.
