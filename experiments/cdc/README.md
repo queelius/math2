@@ -136,3 +136,5 @@ cross-family Lean catalogue follows from these finite experiments.
 The [Heawood fixed-flow obstruction](heawood/README.md) gives a boundary to the Petersen result: one explicit nonzero flow has exactly two root-fixed lifts, both with K7 palettes, while a different flow on the same graph yields a checked three-label Eulerian double cover.
 
 The [single-cycle Heawood repair classification](heawood_cycle_repair/README.md) checks all 199 admissible cycle changes of that obstructing flow. Of these, 168 admit at most five palette colors, with a minimum-support six-edge repair. No single-cycle change, and therefore no six-edge conservative change, admits three colors; unrestricted larger changes remain outside this classification.
+
+The [exact three-operation Heawood repair](heawood_two_cycle/README.md) now resolves the next local-repair question: no two legal simple-cycle XOR changes can reach a three-colorable affine palette, while an explicit three-step sequence does. A structural reduction to rank-two flows and 1,393 binary projections independently checks the lower bound.
